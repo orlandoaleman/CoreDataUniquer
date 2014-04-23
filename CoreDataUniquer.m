@@ -1,15 +1,14 @@
 //
-//  CoreDataUniquer.m
-//  closett
+//  TTCoreDataUniquer.m
 //
 //  Created by Orlando Aleman Ortiz
 //  Copyright (c) 2012 orlandoaleman.com. All rights reserved.
 //
 
-#import "CoreDataUniquer.h"
+#import "TTCoreDataUniquer.h"
 
 
-@interface CoreDataUniquer() {
+@interface TTCoreDataUniquer() {
     NSMutableDictionary *_objectList;
 }
 
@@ -19,7 +18,7 @@
 @end
 
 
-@implementation CoreDataUniquer
+@implementation TTCoreDataUniquer
 
 
 - (id)initWithEntityName:(NSString*)newEntityName identifyingProperty:(NSString *)newIdProp andContext:(NSManagedObjectContext *)newContext
