@@ -1,6 +1,5 @@
 //
-//  CoreDataUniquer.h
-//  closett
+//  TTCoreDataUniquer.h
 //
 //  Created by Orlando Aleman Ortiz
 //  Copyright (c) 2012 orlandoaleman.com. All rights reserved.
@@ -13,7 +12,7 @@
  en base a su identificador y crearlo cuando no. Se hace mediante una propiedad del objeto, identifier
  */
 
-@interface CoreDataUniquer : NSObject
+@interface TTCoreDataUniquer : NSObject
 
 /// Inicializa un objeto para controlar la existencia de instancias únicos de una entidad
 - (id)initWithEntityName:(NSString *)entityName identifyingProperty:(NSString *)idProp andContext:(NSManagedObjectContext *)context;
